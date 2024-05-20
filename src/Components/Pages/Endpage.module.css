@@ -1,0 +1,35 @@
+.main{
+      width: 100%;
+      height: 50px;
+      background-image: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+      /* border: 2px solid red; */
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+.leftContent{
+      color: white;
+      font-family: "Outfit", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.rightContent{
+      color: white;
+      font-family: "Outfit", Sans-serif;
+      font-weight: 400;
+      display: flex;
+}
+.rightContent li{
+      font-size: 16px;
+      margin:  0 10px;
+      list-style: none;
+}
+
+@media (max-width: 480px) {
+      .leftContent{
+            font-size: 10px;
+      }
+      .rightContent{
+            font-size: 10px;
+      }
+}

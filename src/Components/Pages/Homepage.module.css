@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+.main {
+      width: 100%;
+      /* margin: 90px 0; */
+      display: flex;
+      flex-direction: row;
+      margin-left: 6%;
+    }
+    
+    .rightside {
+      width: 25%;
+      padding: 25px;
+    }
+    
+    .rightside p {
+      width: 50%;
+      color: white;
+      font-family: "Outfit", sans-serif;
+      font-size: 22px;
+    }
+    
+    .txt {
+      font-weight: 400;
+      color: transparent;
+      background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    
+    .leftside {
+      width: 45%;
+      color: #EEE5FF;
+      font-family: "Sora", sans-serif;
+      font-weight: normal;
+      font-size: 25px;
+    }
+    
+    .headtxt {
+      font-size: 50px;
+      line-height: 70px;
+      font-family: "Sora";
+      color: transparent;
+      background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 0;
+    }
+    
+    .ptxt {
+      color: #EEE5FFBD;
+      font-family: "Outfit", sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.6em;
+    }
+    
+    @media (max-width: 768px) {
+      .main {
+        flex-direction: column;
+        margin-left: 0;
+      }
+    
+      .rightside, .leftside {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+      }
+    
+      .rightside p {
+            width: 100%;
+        font-size: 18px;
+      }
+    
+      .leftside {
+        font-size: 20px;
+      }
+    
+      .headtxt {
+        font-size: 35px;
+        line-height: 50px;
+      }
+    
+      .ptxt {
+        font-size: 16px;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .main {
+        margin: 30px 0;
+      }
+    .rightside{
+      width: 100%;
+      padding: 0;
+    }
+      .rightside p {
+        font-size: 20px;
+        margin: 5;
+      }
+    
+      .leftside {
+        font-size: 18px;
+        padding: 0;
+      }
+    
+      .headtxt {
+        font-size: 40px;
+        line-height: 50px;
+      }
+    
+      .ptxt {
+            width: 95%;
+            margin-left: 2.5%;
+        font-size: 16px;
+        text-align: center;
+      }
+    }
+    

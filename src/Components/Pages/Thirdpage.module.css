@@ -1,0 +1,140 @@
+.main {
+  width: 90%;
+  /* height: 100vh; */
+  margin: 100px 0;
+}
+
+.heading {
+  color: #eee5ff;
+  margin: 0px 0px 10px 0px;
+  font-family: "Sora", Sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+}
+.container {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.box {
+  width: 42%;
+margin-left: 1%;
+  background-color: #1a132b;
+  border: 3px solid #2d273d;
+  padding: 20px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+.box2 {
+  margin-top: 10%;
+  height: 100%;
+}
+
+.boxHead {
+  color: #eee5ff;
+  margin: 0px 0px 10px 0px;
+  font-family: "Sora", Sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 45px;
+}
+.boxPtag {
+  color: #eee5ffbd;
+  font-family: "Outfit", Sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0px 0px 40px 0px;
+}
+.box img{
+  width: 90%;
+  margin-left: 5%;
+}
+
+.banner{
+  width: 900px;
+  /* height: 300px; */
+  margin-left: 250px;
+  border: 3px solid #2d273d;
+  border-radius: 25px;
+}
+.bannerHead{
+  color: #eee5ff;
+  margin: 60px 0px 10px 0px;
+  font-family: "Sora", Sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: center;
+}
+.bannerPtag{
+  width: 45%;
+  /* border: 2px solid red; */
+  color: #eee5ffbd;
+  font-family: "Outfit", Sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0px 0px 30px 27%;
+  text-align: center;
+}
+.bannerimg{
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
+@media (max-width: 480px) {
+  .box {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+  }
+  .container {
+    width: 100%;
+    margin-top: 70px;
+  }
+  .heading{
+    font-size: 16px;
+    /* margin: 0px 0px 5px 20px; */
+    font-weight: 400;
+    /* border: 2px solid red; */
+    margin-left: 10%;
+  }
+  .box img{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .boxPtag{
+    font-size: 14px;
+    line-height: 20px;
+  margin: 0px 0px 30px 0px;
+  }
+  .banner{
+    width: 80%;
+    margin-left: 10%;
+    padding: 10px;
+  }
+  .bannerHead{
+    font-size: 20px;
+    font-weight: 500;
+  line-height: 30px;
+  margin: 30px 0px 20px 0px;
+  }
+  .bannerPtag{
+    width: 90%;
+    margin-left: 5%;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+  }
+  .banner img{
+    width: 90%;
+  }
+}

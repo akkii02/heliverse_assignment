@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.container{
+  width: 100%;
+  height: auto;
+  /* border:  2px solid red; */
+}
+.main {
+  width: 100%;
+  margin: 50px 0;
+}
+.Heading {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 30px;
+  /* border: 2px solid white; */
+  text-align: center;
+}
+.Heading h1 {
+  font-size: 35px;
+  line-height: 55px;
+  color: #eee5ff;
+  margin: 0px 0px 10px 0px;
+  font-family: "Sora", Sans-serif;
+  font-weight: 400;
+}
+.Heading p{
+      color: #EEE5FFBD;
+  font-family: "Outfit", Sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
+  margin: 0px 30px 0px 30px;
+}
+
+.box{
+  width: 95%;
+  margin-left: 2.5%;
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 2.5%;
+}
+.firstBox{
+  width: 30%;
+  height: 350px;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #FFFFFF10;
+  border-radius: 25px;
+  background-color: #150e26;
+  /* margin: 2%; */
+}
+.secondBox{
+  width: 95%;
+  padding: 20px;
+  /* border:  2px solid white; */
+}
+.secondBox h1{
+  color: #EEE5FF;
+  margin: 0px 0px 10px 0px;
+  font-family: "Sora", Sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 45px;
+}
+.secondBox p{
+  color: #EEE5FFBD;
+  font-family: "Outfit", Sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0px 0px 0px 0px;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 480px) {
+  .Heading {
+    width: 90%;
+    margin: 0 5%;
+  }
+  .Heading h1 {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 400;
+  }
+  .Heading p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0 30px;
+  }
+  .box {
+    display: block;
+    width: 90%;
+    margin: 5% 5%;
+  }
+  .firstBox {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .secondBox p {
+    font-size: 15px;
+  }
+}
